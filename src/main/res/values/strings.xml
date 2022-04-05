@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">bt1</string>
+    <string name="l_p_tr_nh_di_ng_10_2">LẬP TRÌNH DI ĐỘNG 10 (2)</string>
+    <string name="c_ng">CỘNG</string>
+    <string name="k_t_qu">KẾT QUẢ</string>
+    <string name="tr">TRỪ</string>
+    <string name="nh_n">NHÂN</string>
+    <string name="chia">CHIA</string>
+    <string name="nh_p_s_th_nh_t">NHẬP SỐ THỨ NHẤT</string>
+    <string name="nh_p_s_th_hai">NHẬP SỐ THỨ HAI</string>
+    <string name="b_n_nh_p_s_th_1">bạn nhập số thứ 1</string>
+    <string name="b_n_nh_p_s_th_2">bạn nhập số thứ 2</string>
+</resources>

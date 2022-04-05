@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/l_p_tr_nh_di_ng_10_2" />
+
+    <EditText
+        android:id="@+id/so1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/b_n_nh_p_s_th_1"
+        android:inputType="numberDecimal"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/so2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/b_n_nh_p_s_th_2"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tvketqua"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/k_t_qu" />
+
+    <Button
+        android:id="@+id/btncong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c_ng" />
+
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tr" />
+
+    <Button
+        android:id="@+id/btnnhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nh_n" />
+
+    <Button
+        android:id="@+id/btnchia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chia" />
+</LinearLayout>
